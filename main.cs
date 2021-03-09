@@ -1,0 +1,18 @@
+using System;
+
+
+class Aula51{
+  static void Main(string[] args){
+
+    if(args.Length > 0){
+      Console.WriteLine("Qtd de argumentos {0}",args.Length);
+      for(int i=0; i < args.Length; i++){
+          Console.WriteLine("Argumento {0}:{1}",i,args[i]);
+      }
+    }else{
+      Console.WriteLine("Não foram passados argumentos");
+    }
+
+    
+  }
+}
